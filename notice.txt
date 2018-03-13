@@ -1,0 +1,3 @@
+make menuconfig;
+make modules_prepare;
+make modules SUBDIRS=arch/x86/kvm/
